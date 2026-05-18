@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+	<script src="https://kit.fontawesome.com/b0029cfa84.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/gpp7led.css">
+<style type="text/css">
+
+</style>
+<link href="styles.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div id="wrapper" >
+	<header>
+		<h1>GRAPHIC DESIGN,<br>
+		PRINTING &amp; GIFTS SERVICES</h1></header>
+		<nav>
+			
+			<ul>
+				<li><a href="index.html"><i class="fa-regular fa-house"></i></a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="graphicdesign.html">Graphic Designs</a></li>
+				<li><a href="printing.html">Printing</a></li>
+				<li><a href="gifts.html">Gifts</a></li>
+				<li><a href="flowerbouqets.html">FlowerBouquets</a></li>
+			</ul>
+		</nav>
+		<p class="intro" >We are here for your special occasions and celebrations Working together to create unforgettable details and beautiful memories Flowers, decorations, cards, and designs that leave a lasting impression.</p>
+		
+		
+		<p class="intro">
+		Make every occasion a story Filled with charming details and unforgettable moments.</p>
+
+		<main>
+			
+			
+			
+				
+			
+			
+			<div class="slideshow-container">
+				
+				<div class="mySlides fade">
+					<div class="numbertext">1/4</div>
+					<img src="images/graphic.jpeg" style="width:100%" alt="">
+					<div class="text">Graphic Dersign Services</div>
+				</div>
+					 
+				<div class="mySlides fade">
+				  <div class="numbertext">2/4</div>
+					<img src="images/printer.jpeg" style="width:100%" alt="">
+					<div class="text">Printing Services</div>
+				</div>
+			
+				<div class="mySlides fade">
+					<div class="numbertext">3/4</div>
+					<img src="images/purple flowers.jpg" style="width:100%" alt="">
+					<div class="text">Flowers</div>
+				</div>
+			
+				<div class="mySlides fade">
+					<div class="numbertext">4/4</div>
+					<img src="images/gifts.jpeg" style="width:100%" alt="">
+					<div class="text">Gifts Services</div>
+				</div>
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+			</div>
+			
+			
+				
+			
+		</main>
+		<footer>
+		<a href="https://www.facebook.com/profile.php?id=61586039777090" target="_blank">	<i class="fa-brands fa-facebook" style="color: rgb(200, 170, 224);"> </i></a>
+			
+		<a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-square-instagram" style="color: rgb(200, 170, 224);"></i></a>
+			
+		<a href="https://www.tiktok.com/@00963dado?_r=1&_t=ZS-95xwyAa54LM" target="_blank">	<i class="fa-brands fa-tiktok" style="color: rgb(200, 170, 224);"></i></a>
+			
+			<a href="mailto:Dareenkashko@gmail.com? subject=welcome"><i class="fa-solid fa-envelope" style="color: rgb(200, 170,224);"></i></a>
+					
+				
+					
+		  <i class="fa-regular fa-copyright" style="color: rgb(200, 170, 224);"></i>Darin Kashko2026
+			
+		</footer>
+
+	</div>
+	
+	
+	
+	<script> 
+		let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  slides[slideIndex-1].style.display = "block";
+  
+}
+	</script>
+</body>
+</html>
+
